@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  position: relative;
+}
+
+p{
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav{
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  nav{
+    width: 100%;
+  }
+}
+
+.logo{
+  flex-basis: 20%;
+}
+
+  .nav-links{
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.overskrift{
+  color: #1a0726;
+  padding-left: 25px;
+  font-size: 2.5em;
+}
+
+.overskrift2{
+    color: #1a0726;
+    padding-left: 25px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+ width: 100%; /* Full width */
+ padding: 12px; /* Some padding */
+ border: 1px solid #ccc; /* Gray border */
+ border-radius: 4px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+ margin-top: 6px; /* Add a top margin */
+ margin-bottom: 16px; /* Bottom margin */
+ resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+ background-color: #4CAF50;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ padding: 20px;
+ width: 60%;
+ align-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
+
+hr{
+  border-top: 2px solid #1a0726;
+}
+
+/*images*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img55{
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  li{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
